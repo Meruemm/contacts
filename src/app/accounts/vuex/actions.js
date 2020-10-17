@@ -36,3 +36,4 @@ export const updateAccountEmail = ({ commit, getters }, data) => {
   commit('UPDATE_ACCOUNT_EMAIL', data);
   saveAccount(getters.getAccountById(data.account.id));
 };
+
